@@ -82,7 +82,9 @@ public class Pracs2 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);    
         //String exp = "(a+b*(c^d-e)^(f+g*h)-i)";
+        //String exp ="(((a+b)*(c-d))+e)/(f+g)";
         //user input
+        System.out.println();
         System.out.print("Enter the infix equation: ");
         String exp = sc.next();
         //function call
