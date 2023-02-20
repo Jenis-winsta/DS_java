@@ -101,9 +101,9 @@ public class Pracs3B {
         //String Str="((a+b)*c)";
         String str=null;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Given exp: ");
+        System.out.print("\nGiven exp: ");
         str=sc.next();
-        System.out.println("Prefix exp: "+infixprefix(str));
+        System.out.println("Prefix exp: "+infixprefix(str)+"\n\n");
     }
 }
 

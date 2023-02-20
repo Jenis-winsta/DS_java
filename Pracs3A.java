@@ -21,8 +21,8 @@ public class Pracs3A {
             c=stack.pop();
             str1 +=c; 
   }
-        System.out.println("String: "+str);
-        System.out.println("Reversed string: "+str1);
+        System.out.println("\nString: "+str);
+        System.out.println("Reversed string: "+str1+"\n\n");
     }
 }
 

@@ -83,9 +83,9 @@ public class Pracs2 {
         Scanner sc =new Scanner(System.in);    
         //String exp = "(a+b*(c^d-e)^(f+g*h)-i)";
         //user input
-        System.out.println("Enter the infix equation: ");
+        System.out.print("Enter the infix equation: ");
         String exp = sc.next();
         //function call
-        System.out.println(infixpostfix(exp)); //infixpostfix
+        System.out.println("Postfix: "+infixpostfix(exp)+"\n\n\n"); //infixpostfix
     }
 }

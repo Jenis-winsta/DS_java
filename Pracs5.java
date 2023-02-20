@@ -57,10 +57,14 @@ public class Pracs5 {
         // n5.setNext(n6);
         // n6.setNext(n7);
         // Display 2 node
+        System.out.println();
+        System.out.println("Before Deletion");
         display(head);
         head = Delete_node(head, 3);
         System.out.println();
-        System.out.println("After deletion");
+        System.out.println("After Deletion");
         display(head);
+        System.out.println();
+
     }
 }

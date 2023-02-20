@@ -3,7 +3,11 @@ package edu.DS_practicals;
 /*
  * Author: Jenis Winsta
  * Date:30/11/2022
- * Description: class stackds is a user-defined stack through which 			2 stacks 'capital' and 'small' are created to store the 			respective letters. The word entered by the user is 			segregated into small and capital letters and displayed         		according to the user's need.
+ * Description: class stackds is a user-defined stack through which 			
+ * 2 stacks 'capital' and 'small' are created to store the 			
+ * respective letters. The word entered by the user is 			
+ * segregated into small and capital letters and displayed         		
+ * according to the user's need.
  */
 //package Data_Structures;
 import java.util.Scanner;
@@ -57,7 +61,7 @@ class stackds{
 public class Pracs1 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter a string");
+        System.out.print("Enter a string:");
         String str=sc.next();
 	  //Creating objects of class stackds
         stackds small =new stackds(str.length()+2);
