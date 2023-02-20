@@ -1,5 +1,15 @@
 /*
  * Reversing a string using stack
+
+ * Author: Jenis Winsta
+ * Date:14/12/2022
+ * Description: A.Getting an infix expression from the users and 
+displaying the reversed expression.
+		B.The infix expression is converted to prefix expression
+		using 2 Stack(oprstk- for operator, opnstk- for operand).
+		The opnstk is the String stack. Through the method 
+        infixprefix() and returns the string that is pop for
+        the opnstack.
  */
 
 package edu.DS_practicals;

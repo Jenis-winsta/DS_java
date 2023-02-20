@@ -1,3 +1,12 @@
+/*
+ * Author: Jenis Winsta
+ * Date:11/01/2023
+ * Description: Linked list is a data structure which are created
+ *   		using a function as well manually where the nodes are created
+ * 		  	using the Node class.
+ */
+
+
 package edu.DS_practicals;
 //Linked list manual
 

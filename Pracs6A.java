@@ -1,4 +1,16 @@
 /*
+ * Author: Jenis Winsta
+ * Date:25/01/2022
+ * Description: Create different functions to do modification of the 
+ *          Linked list.
+ *           A.Concatenate 2 Linked list, 
+ *           B. Find the maximum and minimum value in the given 
+ *              linked list and return its product, 
+ *          C. Calculate the sum of all the elements.
+ */
+
+
+/*
  * Create function to join the Linked List one after another and return the newLL
  */
 package edu.DS_practicals;

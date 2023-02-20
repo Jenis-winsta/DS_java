@@ -1,3 +1,13 @@
+/*
+ * Author: Jenis Winsta
+ * Date:01/02/2023
+ * Description: class TreeNode is used to create Nodes of tree data structure.
+ *  insert(TreeNode) is used to insert values inside the tree and we write 
+ * individual functions to find Inorder, preorder and postorder sequence. 
+
+
+ */
+
 package edu.DS_practicals;
 
 // import java.util.Scanner;

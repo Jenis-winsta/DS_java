@@ -1,8 +1,12 @@
 package edu.DS_practicals;
 /*
+: 
  * Author: Jenis Winsta
  * Date:19/01/2022
- * Description: Class delete is a user defined function through which the data in the given position is deleted.
+ * Description: Function Delete_node is a user defined function
+ *    			through which the data in the given position is deleted.
+ 
+    Class delete is a user defined function through which the data in the given position is deleted.
  */
 
 
