@@ -50,10 +50,10 @@ class TreeNode {
 
 public class TreeDemo {
 
-    TreeNode node = null;
-    TreeNode root = null;
-    TreeNode p = root;
-    TreeNode q = root;
+    // TreeNode node = null;
+    // TreeNode root = null;
+    // TreeNode p = root;
+    // TreeNode q = root;
 
     public TreeNode insert(TreeNode root, int data) {
         if (root == null) {
@@ -73,7 +73,7 @@ public class TreeDemo {
             return;
         }
         inorder(node.getLeft());
-        System.out.print(node.getData()+" ");
+        System.out.print(node.getData() + " ");
         inorder(node.getRight());
     }
 
@@ -81,7 +81,7 @@ public class TreeDemo {
         if (node == null) {
             return;
         }
-        System.out.print(node.getData()+" ");
+        System.out.print(node.getData() + " ");
         preorder(node.getLeft());
         preorder(node.getRight());
     }
@@ -92,35 +92,34 @@ public class TreeDemo {
         }
         postorder(node.getLeft());
         postorder(node.getRight());
-        System.out.print(node.getData()+" ");
+        System.out.print(node.getData() + " ");
     }
-    
 
     public static void main(String[] args) {
         TreeNode root = null;
         TreeDemo tree = new TreeDemo();
 
-        int[] inputs = {1,5,3,8,7,6,9,15,14,51,84,17};
-        //create a tree
-        for (int i:inputs) {
+        int[] inputs = { 1, 5, 3, 8, 7, 6, 9, 15, 14, 51, 84, 17 };
+        // create a tree
+        for (int i : inputs) {
             root = tree.insert(root, i);
         }
         // System.out.println(root.data);
- 
-        //Scanner sc = new Scanner(System.in);
+
+        // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter no. of inputs");
         // int n = sc.nextInt();
 
-        //create tree
+        // create tree
         // for (int i = 0; i < 12; i++) {
-        //     // System.out.println("Enter value ");
-        //     // int tmp_val = sc.nextInt();
-        //     int tmp_val=inputs[i];
-        //     root = tree.insert(root, tmp_val);
+        // // System.out.println("Enter value ");
+        // // int tmp_val = sc.nextInt();
+        // int tmp_val=inputs[i];
+        // root = tree.insert(root, tmp_val);
         // }
 
         // root = tree.insert(root, 50);
-         // root = tree.insert(root, 30);
+        // root = tree.insert(root, 30);
         // root = tree.insert(root, 90);
         // root = tree.insert(root, 20);
         // root = tree.insert(root, 40);
@@ -131,7 +130,6 @@ public class TreeDemo {
         tree.preorder(root);
         System.out.println("\nPostorder: ");
         tree.postorder(root);
-
 
     }
 

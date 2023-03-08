@@ -78,7 +78,6 @@ public class Pracs8 {
         if(root.data>=val){
             return sumof(root.left, val)+sumof(root.right, val)+root.data;
         }
-        
         else{
             return sumof(root.right, val);
         }

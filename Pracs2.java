@@ -37,7 +37,7 @@ public class Pracs2 {
         for(int i=0;i<exp.length(); ++i) {
             char c = exp.charAt(i);
         
-            //if the scanned character is an operand, add it ti output
+            //if the scanned character is an operand, add it to output
             if(Character.isLetterOrDigit(c))
                 result +=c;
         

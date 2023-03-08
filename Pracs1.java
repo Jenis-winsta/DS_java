@@ -64,8 +64,8 @@ public class Pracs1 {
         System.out.print("Enter a string:");
         String str=sc.next();
 	  //Creating objects of class stackds
-        stackds small =new stackds(str.length()+2);
-        stackds capital =new stackds(str.length()+2);
+        stackds small =new stackds(str.length());
+        stackds capital =new stackds(str.length());
         for(int i=0;i<str.length();i++) {
             char temp= str.charAt(i);
 		//If small push the character into ‘small’ stack else into ‘capital’ stack

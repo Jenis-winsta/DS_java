@@ -54,9 +54,7 @@ public class Pracs3B {
            
             //if the scanned character is an ')', pop and output from the stack until an ( is encountered
             else if(c==')') {
-                while(!oprstk.isEmpty() && oprstk.peek()!='('
-                 && !oprstk.isEmpty()) {
-                   
+                while(!oprstk.isEmpty() && oprstk.peek()!='(') { 
                     opr=oprstk.pop();
                     a=opnstk.pop();
                     b=opnstk.pop();

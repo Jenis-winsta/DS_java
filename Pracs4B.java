@@ -14,7 +14,6 @@ public class Pracs4B {
 	static void display(Node h) {
 		//to display only the start pointer is required i.e head
 		Node p=h;
-		
 		while(p!=null) {
 			System.out.print(" --> "+p.getData());
 			p=p.getNext();
