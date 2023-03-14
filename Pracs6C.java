@@ -8,7 +8,6 @@ public class Pracs6C {
 		while(p!=null) {
 			System.out.print(" --> "+p.getData());
 			p=p.getNext();
-			
 		}
 	}
     static void sum(Node h){
